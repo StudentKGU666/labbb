@@ -1,0 +1,6 @@
+D:\лабы\C++\6.33\6.33\Debug\6.33.vcxproj.AssemblyReference.cache
+D:\лабы\C++\6.33\6.33\Debug\My633.MyForm.resources
+D:\лабы\C++\6.33\6.33\Debug\6.33.vcxproj.GenerateResource.cache
+C:\сpp\6.33\6.33\Debug\6.33.vcxproj.AssemblyReference.cache
+C:\сpp\6.33\6.33\Debug\My633.MyForm.resources
+C:\сpp\6.33\6.33\Debug\6.33.vcxproj.GenerateResource.cache
