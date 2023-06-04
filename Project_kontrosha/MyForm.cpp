@@ -11,6 +11,16 @@ using namespace System;
 using namespace System::Windows::Forms;
 using namespace msclr::interop;
 
+[System::STAThreadAttribute()]
+int main(array<String^>^ Args) 
+{
+	Application::EnableVisualStyles();
+	Application::SetCompatibleTextRenderingDefault(false);
+
+	Application::Run(gcnew Projectkontrosha::MyForm());
+
+	return 0;
+}
 
 // std::string в System::string^
 String^ Convert_string_to_String(std::string& os)
@@ -25,19 +35,6 @@ bool isAsciiSymbol(char c)
 	int ascii_code = static_cast<int>(c); 
 	return (ascii_code >= 32 && ascii_code <= 126); 
 }
-
-[System::STAThreadAttribute()]
-int main(array<String^>^ Args) //!!!
-{
-	Application::EnableVisualStyles();
-	Application::SetCompatibleTextRenderingDefault(false);
-
-	Application::Run(gcnew Projectkontrosha::MyForm());
-
-	return 0;
-}
-
-
 
 System::Void Projectkontrosha::MyForm::button1_Click(System::Object^ sender, System::EventArgs^ e)
 {	
@@ -87,14 +84,14 @@ System::Void Projectkontrosha::MyForm::button1_Click(System::Object^ sender, Sys
 		else
 		{
 			textBox3->Text = textBox1->Text;
-			textBox2->Text = "В тексте не найдены английские символы";
+			textBox2->Text = "В тексте не найдены английские символы!";
 			textBox1->Text = "";
 		}
 	}
 	else 
 	{
 		textBox3->Text = textBox1->Text;
-		textBox2->Text = "Кириллица недоппустима!" + count_once;
+		textBox2->Text = "Кириллица недопустима!" + count_once;
 		textBox1->Text = "";
 	}
 }
