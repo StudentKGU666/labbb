@@ -91,7 +91,7 @@ System::Void Projectkontrosha::MyForm::button1_Click(System::Object^ sender, Sys
 	else 
 	{
 		textBox3->Text = textBox1->Text;
-		textBox2->Text = "Кириллица недопустима!" + count_once;
+		textBox2->Text = "Кириллица недопустима!";
 		textBox1->Text = "";
 	}
 }
