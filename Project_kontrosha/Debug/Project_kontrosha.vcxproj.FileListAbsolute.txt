@@ -1,0 +1,4 @@
+C:\Users\Acer\source\repos\Project_kontrosha\Debug\Project_kontrosha.vcxproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\Project_kontrosha\Debug\Projectkontrosha.MyForm.resources
+C:\Users\Acer\source\repos\Project_kontrosha\Debug\Project_kontrosha.vcxproj.GenerateResource.cache
+C:\Users\Acer\source\repos\Project_kontrosha\Debug\Project_kontrosha.exe

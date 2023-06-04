@@ -1,0 +1,5 @@
+﻿  MyForm.cpp
+C:\Users\Acer\source\repos\Project_kontrosha\MyForm.cpp(51,16): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Acer\source\repos\Project_kontrosha\MyForm.cpp(51): warning C4700: использована неинициализированная локальная переменная "i"
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Project_kontrosha.vcxproj -> C:\Users\Acer\source\repos\Project_kontrosha\Debug\Project_kontrosha.exe
