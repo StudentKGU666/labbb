@@ -12,7 +12,7 @@ namespace Projectkontrosha {
 	
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace Projectkontrosha {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -53,14 +53,14 @@ namespace Projectkontrosha {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -99,7 +99,7 @@ namespace Projectkontrosha {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(223, 70);
 			this->button1->TabIndex = 2;
-			this->button1->Text = L"Подсчитать";
+			this->button1->Text = L"РџРѕРґСЃС‡РёС‚Р°С‚СЊ";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -112,7 +112,7 @@ namespace Projectkontrosha {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(113, 20);
 			this->label1->TabIndex = 3;
-			this->label1->Text = L"Гистограмма:";
+			this->label1->Text = L"Р“РёСЃС‚РѕРіСЂР°РјРјР°:";
 			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
 			// 
 			// label2
@@ -124,7 +124,7 @@ namespace Projectkontrosha {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(372, 20);
 			this->label2->TabIndex = 4;
-			this->label2->Text = L"Введите текст с английскими символами ниже:";
+			this->label2->Text = L"Р’РІРµРґРёС‚Рµ С‚РµРєСЃС‚ СЃ Р°РЅРіР»РёР№СЃРєРёРјРё СЃРёРјРІРѕР»Р°РјРё РЅРёР¶Рµ:";
 			// 
 			// label3
 			// 
@@ -135,7 +135,7 @@ namespace Projectkontrosha {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(93, 20);
 			this->label3->TabIndex = 6;
-			this->label3->Text = L"Ваш текст:";
+			this->label3->Text = L"Р’Р°С€ С‚РµРєСЃС‚: ";
 			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click);
 			// 
 			// textBox3
