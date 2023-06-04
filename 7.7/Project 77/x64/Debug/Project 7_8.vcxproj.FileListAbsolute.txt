@@ -1,0 +1,4 @@
+C:\Users\maks_\Desktop\c++\Project 7_8\Project 7_8\x64\Debug\Project 7_8.vcxproj.AssemblyReference.cache
+C:\Users\maks_\Desktop\c++\Project 7_8\Project 7_8\x64\Debug\Project 7_8.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\maks_\Desktop\c++\Project 7_8\Project 7_8\x64\Debug\Project78.MyForm2.resources
+C:\Users\maks_\Desktop\c++\Project 7_8\Project 7_8\x64\Debug\Project 7_8.vcxproj.GenerateResource.cache
